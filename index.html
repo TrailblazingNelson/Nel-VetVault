@@ -9,47 +9,78 @@
 <body>
     <header>
         <h1>Nel VetVault</h1>
-        <p>Your one-stop resource hub for veterinary students.</p>
+        <p>The one-stop resource hub for Veterinary Medicine students.</p>
+        <p></p><a href="#creator-note" class="about-link">About Nel VetVault</a></p>
     </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search subjects..." onkeyup="filerSubjects()">
+    </div>
 
     <main>
         <section class="resources">
             <h2>Subjects</h2>
-            <div class="subject-card" oneclick="openLink('https://drive.google.com/folder1')">
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder1')">
                 <h3>Anatomy</h3>
                 <p>lecture notes, past questions, diagrams</p>
             </div>
-            <div class="subject-card" oneclick="openLink(https://drive.google.com/folder2)">
-                <h3>Pharmacology</h3>
-                <p>drugs, doses, mechanisms</p>
-            </div>
-            <div class="subject-card" oneclick="openLink('https://drive.google.com/folder3')">
-                <h3>Pathology</h3>
-                <p>slides, images, case studies</p>
-            </div>
-             <div class="subject-card" oneclick="openLink('https://drive.google.com/folder3')">
-                <h3>Medicine</h3>
-                <p>diagnosis, treatment, patient-care</p>
-            </div>
-             <div class="subject-card" oneclick="openLink('https://drive.google.com/folder3')">
-                <h3>Surgery</h3>
-                <p>incision, suturing, anaesthesia</p>
-            </div>
-             <div class="subject-card" oneclick="openLink('https://drive.google.com/folder3')">
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
                 <h3>Physiology</h3>
                 <p>homeostasis, cell-function, neurotransmission</p>
             </div>
-             <div class="subject-card" oneclick="openLink('https://drive.google.com/folder3')">
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
+                <h3>Biochemistry</h3>
+                <p>enzyme activity, metabolism, protein structure</p>
+            </div>
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
+                <h3>Parasitology</h3>
+                <p>helminths, protozoology, entomology</p>
+            </div>
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
+                <h3>Public Health</h3>
+                <p>zoonotic-diseases, food-safety, epidemiology</p>
+            </div>
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder2')">
+                <h3>Pharmacology</h3>
+                <p>drugs, doses, mechanisms</p>
+            </div>
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
+                <h3>Pathology</h3>
+                <p>slides, images, case studies</p>
+            </div>
+             <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
+                <h3>Medicine</h3>
+                <p>diagnosis, treatment, patient-care</p>
+            </div>
+             <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
+                <h3>Surgery</h3>
+                <p>incision, suturing, anaesthesia</p>
+            </div>
+             <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
                 <h3>Theriogenology</h3>
                 <p>estrus-cycle, artificial insemination, pregnancy-diagnosis</p>
             </div>
-             <div class="subject-card" oneclick="openLink('https://drive.google.com/folder3')">
+             <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
                 <h3>Microbiology</h3>
                 <p>pathogens, cultures, antibiotics</p>
+            </div>
+            <div class="subject-card" onclick="openLink('https://drive.google.com/folder3')">
+                <h3>Veterinary Extension/Entrepreneurship</h3>
+                <p>business-skills, client-education, field-visits</p>
             </div>
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <section id="creator-note" class="creator-note">
+        <h2>Why I Built Nel VetVault</h2>
+        <p>Nel VetVault was born out of a deep desire to help veterinary students learn better, faster, and with more clarity.
+           As a final-year vet student, I've faced the challenges of scattered resources and information overload.</p>
+        <p>I built this platform out of passion for Veterinary Medicine, especially for students.
+           It's meant to be a simple, powerful tool to support your learning journey.</p>
+        <p>My hope is that this inspires you to study with purpose, to stay consistent, and to also take initiative in solving problems around you.
+           You don't need perfect systems, just a determined heart and small steps forward.</p>
+        <p class="creator-signature">Nelson<br>Creator, Nel VetVault</p>
+    </section>
 </body>
+<script src="script.js"></script>
 </html>
