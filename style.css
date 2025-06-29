@@ -31,3 +31,54 @@ header {
     transform: scale(1.03);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.creator-note {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    line-height: 1.6;
+}
+
+.creator-note h2 {
+    color: #004d40;
+    margin-bottom: 15px;
+}
+
+.creator-note p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.creator-signature {
+    font-weight: bold;
+    color: #004d40;
+}
+
+.about-link {
+    color: #b3dfdb;
+    text-decoration: underline;
+    font-size: 0.95rem;
+}
+
+.about-link:hover {
+    color: #ffffff;
+}
+
+.search-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
